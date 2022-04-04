@@ -2,8 +2,15 @@
 	import Login from './Login.svelte';
 
 </script>
+
+<!-- svelte-ignore a11y-missing-attribute -->
 	<Login/>
+
+
 <style>
+	 :root {
+    --container-background-color: black;
+    }
 	main {
 		text-align: center;
 		padding: 1em;

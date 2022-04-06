@@ -137,9 +137,13 @@
         font-weight: 700;
         cursor: pointer;
         outline: none;
+        transition: all .5s ease-in-out;
+
     }
     input[type="submit"]:hover{
         border-color:#2691d9 ;
-        transition: .5s;
+        transform: scale(1.05);
+
+
     }
 </style>

@@ -1,14 +1,12 @@
 <script>
-    import { name,surename, mode } from './stores.js';
+    import { account,accounts, mode } from './stores.js';
   </script>
 
-  <div>
+  <div class="center">
     <h1>Welcome</h1>
-    <h1>{$accounts[$username].balance}</h1>
+    <h1>{$accounts[$account].name}</h1>
     <div class="menu">
-        <a href="src\test.svelte">
-            <button >ดูรายชื่อวิชา</button>
-        </a>
+          <button >ดูรายชื่อวิชา</button>
           <button on:click={()=>$mode='registry'}>ลงทะเบียน</button>
           <button on:click={()=>$mode='result'}>ผลการลงทะเบียน</button>
           <button on:click={()=>$mode='withdrawal'}>ถอนรายวิชา</button>

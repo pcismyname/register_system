@@ -12,11 +12,6 @@
           <button on:click={()=>$mode='withdrawal'}>ถอนรายวิชา</button>
         </div>
     </div>
-      
-
-
-
-  
 <style>
 
 button {
@@ -71,9 +66,6 @@ button:active {
 button:active:after {
   opacity: 1;
 }
-
-
-
 </style>
 
 
